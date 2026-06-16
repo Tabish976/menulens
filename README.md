@@ -1,6 +1,7 @@
 ## Menulens
 
 ## Project structure 
+``` text
 menu-ai-app/
 │
 ├── frontend/                    # React/Vite frontend
@@ -112,9 +113,10 @@ menu-ai-app/
 ├── .env
 ├── .gitignore
 └── README.md
-
+```
 
 ## project working flow
+```
 User Uploads Menu Image
         │
         ▼
@@ -139,3 +141,4 @@ Node.js Backend
 MongoDB
         ▼
 React Frontend
+```
