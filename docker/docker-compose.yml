@@ -1,0 +1,20 @@
+version: '3.9'
+services:
+  frontend:
+    build:
+      context: ../frontend
+      dockerfile: ../docker/frontend.Dockerfile
+    ports:
+      - "5173:5173"
+  backend:
+    build:
+      context: ../backend
+      dockerfile: ../docker/backend.Dockerfile
+    ports:
+      - "4000:4000"
+  fastapi:
+    build:
+      context: ../fastapi-service
+      dockerfile: ../docker/fastapi.Dockerfile
+    ports:
+      - "8000:8000"
