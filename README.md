@@ -1,4 +1,4 @@
-## Menulens
+# Menulens
 
 ## Project structure 
 ``` text
